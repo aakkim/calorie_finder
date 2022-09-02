@@ -5,10 +5,11 @@ import json
 import os
 
 
-
+# Retrieve API key
 def configure():
     load_dotenv()
 
+# Search and display API data on page
 def home(request):
     configure()
     if request.method == 'POST':
